@@ -19,14 +19,21 @@
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
+<<<<<<< HEAD
     "cloudinary": "^2.5.1",
+=======
+>>>>>>> ed8a106c2e0e37e41ac017fb9fe64c4204e25267
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.1",
+<<<<<<< HEAD
     "mongoose-aggregate-paginate-v2": "^1.1.4",
     "multer": "^1.4.5-lts.1"
+=======
+    "mongoose-aggregate-paginate-v2": "^1.1.4"
+>>>>>>> ed8a106c2e0e37e41ac017fb9fe64c4204e25267
   }
 }

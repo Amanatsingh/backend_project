@@ -1,5 +1,9 @@
 const asyncHandler = (requestHandler) => {
+<<<<<<< HEAD
     return (req,res,next) => {
+=======
+    (req,res,next) => {
+>>>>>>> ed8a106c2e0e37e41ac017fb9fe64c4204e25267
         Promise.resolve(requestHandler(req,res,next)).catch((err) => next(err))
     }
 }
